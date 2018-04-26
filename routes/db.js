@@ -3,7 +3,7 @@ var router = express.Router();
 
 var pg = require('pg');
 //Heroku
- var conString = 'postgres://xkuprqdhkfvvdj:e771153c7312eee20e7656aee545daa335d44f11690fc3ea1d1522e9e6a40cfc@ec2-50-16-196-238.compute-1.amazonaws.com:5432/d11fj06j7ttpj8\n'
+ var conString = 'postgres://xkuprqdhkfvvdj:e771153c7312eee20e7656aee545daa335d44f11690fc3ea1d1522e9e6a40cfc@ec2-50-16-196-238.compute-1.amazonaws.com:5432/d11fj06j7ttpj8'
 //Local
 // var config = {
 //     user : 'praveen',
