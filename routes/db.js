@@ -19,7 +19,7 @@ router.get('/', function(req, res, next) {
             console.log(err.message)
         }
 
-        client.query("Select * from test_table",function (err, result) {
+        client.query("Select * from testtable",function (err, result) {
             if (err)
             { console.error(err); response.send("Error " + err); }
             else
